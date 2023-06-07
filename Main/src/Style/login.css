@@ -1,0 +1,9 @@
+.mainFxmlClass {
+  -fx-background-image: url(../Img/Login.png);
+}
+
+.BtnEntrar {
+  -fx-background-color: black;
+  -fx-border-radius: 5px;
+  -fx-border-color: transparent;
+}

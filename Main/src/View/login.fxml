@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="615.0" prefWidth="924.0" styleClass="mainFxmlClass" stylesheets="@../Style/login.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.LoginController">
+   <children>
+      <PasswordField fx:id="passwordId" layoutX="514.0" layoutY="320.0" prefHeight="38.0" prefWidth="285.0" />
+      <TextField fx:id="userId" layoutX="514.0" layoutY="273.0" prefHeight="38.0" prefWidth="285.0" />
+      <Label layoutX="624.0" layoutY="211.0" text="Log in">
+         <font>
+            <Font name="Yu Gothic Bold" size="22.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnUser" layoutX="514.0" layoutY="381.0" mnemonicParsing="false" onAction="#OnClickedLogin" prefHeight="28.0" prefWidth="285.0" styleClass="BtnEntrar" stylesheets="@../Style/login.css" text="Entrar" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</Pane>
